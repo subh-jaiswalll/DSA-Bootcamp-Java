@@ -5,6 +5,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5309443d-e21d-4441-b14e-e9c1a5392d31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lectures/Code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/.idea/Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/01-intro to programming/01-flow-of-program.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/01-intro to programming/Intro-of-programming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/02-flow of program/FlowOfProgram.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/02-flow of program/Untitled-2025-09-05-2136.excalidraw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/03-introduction to java/Java Intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/04-First Java Program.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/JavaProgram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/ASCII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/Operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/TypeCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/TypeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/04-First Java Program/src/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/05-conditionalStatement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/src/If.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/src/If_Else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/src/Ladder_if_else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/src/Nested_if_else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/05-conditionalStatement/src/SwitchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/06-Loop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/Loop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/src/BreakAndcontinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/src/Do_WhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/src/ForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/src/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/06-Loop/src/WhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/08-BasicMathsProblem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/BasicMathsExplination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/ArmStrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/CheckFactorialNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/CountDigitsInANumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/CountZeroDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/GCDAndHCF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/LCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/PerfactNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/PrimeNumberBetween1ToN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/08-BasicMathsProblem/src/SumOfFirstNNaturalNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/09-Methods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/src/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/src/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/src/ReturnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/src/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/src/SumOfFirstNNaturalNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/src/TableOfANumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/09-Methods/src/ppp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/10-BinarySearch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/src/binarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/BreakAndcontinue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/Do_WhileLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/ForLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/Loop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/PatternPrint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/WhileLoop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
