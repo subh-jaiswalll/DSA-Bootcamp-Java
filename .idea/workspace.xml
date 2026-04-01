@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5309443d-e21d-4441-b14e-e9c1a5392d31" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DSA-Bootcamp-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/01-flow-of-program.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/Untitled-2025-09-05-2123.excalidraw.png" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/01-intro to programming/Intro-of-programming.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/01-intro to programming/01-flow-of-program.md" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/01-intro to programming/01-flow-of-program.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/01-intro to programming/intro-to-programming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,39 +13,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lectures/Code/11-linear_Search" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "atulcodes-tech"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;atulcodes-tech&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/atulcodes-tech/DSA-Bootcamp-Java.git",
-    "accountId": "21e0e0af-1204-4723-8a49-83100719eff9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/atulcodes-tech/DSA-Bootcamp-Java.git&quot;,
+    &quot;accountId&quot;: &quot;21e0e0af-1204-4723-8a49-83100719eff9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="38gwjiIowvF3ERxZwV5dAk9wWpg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Variable.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Rebasing main",
-    "last_opened_file_path": "C:/Users/subhk/Desktop/DSA-Bootcamp-Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Variable.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/subhk/Desktop/DSA-Bootcamp-Java&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5309443d-e21d-4441-b14e-e9c1a5392d31" name="Changes" comment="" />

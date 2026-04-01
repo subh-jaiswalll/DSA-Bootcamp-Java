@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Code/04-First Java Program/04-First Java Program.iml" filepath="$PROJECT_DIR$/Code/04-First Java Program/04-First Java Program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/05-conditionalStatement/05-conditionalStatement.iml" filepath="$PROJECT_DIR$/Code/05-conditionalStatement/05-conditionalStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/06-Loop/06-Loop.iml" filepath="$PROJECT_DIR$/Code/06-Loop/06-Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/08-BasicMathsProblem/08-BasicMathsProblem.iml" filepath="$PROJECT_DIR$/Code/08-BasicMathsProblem/08-BasicMathsProblem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/09-Methods/09-Methods.iml" filepath="$PROJECT_DIR$/Code/09-Methods/09-Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/10-BinarySearch/10-BinarySearch.iml" filepath="$PROJECT_DIR$/Code/10-BinarySearch/10-BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/11-linear_Search/11-linear_Search.iml" filepath="$PROJECT_DIR$/Code/11-linear_Search/11-linear_Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/13-Array/13-Array.iml" filepath="$PROJECT_DIR$/Code/13-Array/13-Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/14-PatternPrinting/14-PatternPrinting.iml" filepath="$PROJECT_DIR$/Code/14-PatternPrinting/14-PatternPrinting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/15-Recursion-/15-Recursion-.iml" filepath="$PROJECT_DIR$/Code/15-Recursion-/15-Recursion-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lectures.iml" filepath="$PROJECT_DIR$/.idea/lectures.iml" />
+    </modules>
+  </component>
+</project>

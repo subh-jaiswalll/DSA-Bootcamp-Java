@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/04-First Java Program/04-First Java Program.iml" filepath="$PROJECT_DIR$/04-First Java Program/04-First Java Program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-conditionalStatement/05-conditionalStatement.iml" filepath="$PROJECT_DIR$/05-conditionalStatement/05-conditionalStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Loop/06-Loop.iml" filepath="$PROJECT_DIR$/06-Loop/06-Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-BasicMathsProblem/08-BasicMathsProblem.iml" filepath="$PROJECT_DIR$/08-BasicMathsProblem/08-BasicMathsProblem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-Methods/09-Methods.iml" filepath="$PROJECT_DIR$/09-Methods/09-Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-BinarySearch/10-BinarySearch.iml" filepath="$PROJECT_DIR$/10-BinarySearch/10-BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-linear_Search/11-linear_Search.iml" filepath="$PROJECT_DIR$/11-linear_Search/11-linear_Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Code.iml" filepath="$PROJECT_DIR$/.idea/Code.iml" />
+    </modules>
+  </component>
+</project>
