@@ -12,16 +12,37 @@ public class RotateArray {
         arr[0] = last;
 
     }
-    public static void rotateArrayOptimized(int[] arr, int k){
+    public static void rotateKtimes(int[] arr, int k){
         int n = arr.length;
         k = k % n;
 
+        for(int i = 0; i < k; i++){
+            rotateArray(arr);
+        }
 
 
     }
+    public static void rotateKtimesOptimzed(int[] arr, int k){
+        int n =arr.length;
+        k = k % n;
+
+        reverse(arr, 0, n-1);
+        reverse(arr, 0 , k -1);
+        reverse(arr, k, n -1);
+    }
+    public static void reverse(int[] arr, int n, int k){
+        while(n < k){
+            int temp = arr[n];
+            arr[n] = arr[k];
+            arr[k] = temp;
+            n++;
+            k--;
+        }
+    }
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        rotateArray(arr);
+        int k = 2;
+        rotateKtimesOptimzed(arr, k);
 
         for (int num : arr){
             System.out.println(num);

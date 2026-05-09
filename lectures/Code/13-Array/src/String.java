@@ -1,13 +1,11 @@
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
 
-public class Sring {
+public class String {
 
 //    public static void main(String[] args) {
 //        Reverse a String
 
-        String str = "Hello";
+        java.lang.String str = "Hello";
 //
 //        String rev = " ";
 //
@@ -152,11 +150,11 @@ public class Sring {
 //            }
 //        }
 //    }
-public static void main(String[] args) {
+public static void main(java.lang.String[] args) {
 //    valid anagaram
 
-    String str = "listen";
-    String st = "silent";
+    java.lang.String str = "listen";
+    java.lang.String st = "silent";
 
     if(str.length()  != st.length()){
         System.out.println(false);

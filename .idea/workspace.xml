@@ -104,6 +104,9 @@
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/Loop.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/PatternPrint.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/WhileLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +115,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lectures/Code/11-linear_Search" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lectures/Code" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -142,7 +145,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/subhk/Desktop/DSA-Bootcamp-Java&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/subhk/Desktop/DSA-Bootcamp-Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
   <component name="TaskManager">

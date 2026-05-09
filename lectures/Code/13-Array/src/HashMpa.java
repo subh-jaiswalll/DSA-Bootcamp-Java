@@ -8,10 +8,7 @@ public class HashMpa {
 
         HashMap<String, Integer> map = new HashMap<>();
 
-        map.put("John", 23);
-        map.put("Jane" , 30);
-        map.put("Jim", 22);
-        map.put("Jin", 22);
+//        m/ut("Jin", 22);
 
 
 

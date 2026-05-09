@@ -66,12 +66,12 @@ public class Test {
     public static void main(String[] args) {
 
 
-        String input1 = "swiss";
-        String input2 = "wsiss";
-
-        if(input1.length() != input2.length()){
-            System.out.println("Not a Angram");
-        }
+//        String input1 = "swiss";
+//        String input2 = "wsiss";
+//
+//        if(input1.length() != input2.length()){
+//            System.out.println("Not a Angram");
+//        }
 
 
 
