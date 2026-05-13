@@ -39,7 +39,7 @@ public class ContainerWithMostWater {
 
             int water = h * w;
 
-            maxWater = Math.max(maxWater, w);
+            maxWater = Math.max(maxWater, water);
 
             if(height[left] < height[right]){
                 left++;
@@ -59,6 +59,6 @@ public class ContainerWithMostWater {
         System.out.println(result);
 
         int resultTwoPointer = containerWithMostWaterTwoPointer(arr);
-        System.out.println(result);
+        System.out.println(resultTwoPointer);
     }
 }
