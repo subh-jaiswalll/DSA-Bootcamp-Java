@@ -34,7 +34,7 @@ public class RemoveDuplicateFromSortedArray {
 
         int i = 0;
 
-        for(int j = 0; j < n; j++){
+        for(int j = 1; j < n; j++){
 
             if(arr[i] != arr[j]){
                 i++;

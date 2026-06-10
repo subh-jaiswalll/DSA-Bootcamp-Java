@@ -5,7 +5,6 @@ import java.util.HashSet;
 public class LongestSubstringWithoutRepeatingCharacters {
 
 
-
     static int longestSubStringBruteForce(String s){
 
         int n = s.length();

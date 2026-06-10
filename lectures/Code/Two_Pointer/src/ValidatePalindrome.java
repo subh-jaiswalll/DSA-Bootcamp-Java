@@ -1,6 +1,5 @@
 public class ValidatePalindrome {
 
-
     static boolean validatePalindromeBruteForce(String s){
 
         int n = s.length();
@@ -24,6 +23,31 @@ public class ValidatePalindrome {
 
     }
 
+    static boolean validate(String str){
+
+        int n = str.length();
+
+        int start =0;
+        int end = n - 1;
+
+        while(start < end){
+
+            while (start < end && !Character.isLetterOrDigit(str.charAt(start))){
+                start++;
+            }
+
+            while(start < end && !Character.isLetterOrDigit(str.charAt(end))){
+                end--;
+            }
+
+            if(Character.toLowerCase(str.charAt(start)) != Character.toLowerCase(str.charAt(end))){
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return  true;
+    }
     static boolean validatePalindromeTwoPointer(String str){
 
         str = str.toLowerCase();
@@ -48,5 +72,8 @@ public class ValidatePalindrome {
 
         boolean resultOptimzed = validatePalindromeTwoPointer(str);
         System.out.println(resultOptimzed);
+
+        boolean result = validate(str);
+        System.out.println(result);
     }
 }
