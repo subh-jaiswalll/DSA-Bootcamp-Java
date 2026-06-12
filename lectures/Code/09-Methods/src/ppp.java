@@ -136,8 +136,7 @@ public class ppp {
 }
 */
 
-// Scope fo methodn variable inthe main functioni of  real value in th major code
-
+//
 //
 //public class ppp {
 ////    int x = 20;
