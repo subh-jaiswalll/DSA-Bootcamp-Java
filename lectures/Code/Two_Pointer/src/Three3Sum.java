@@ -17,7 +17,7 @@ public class Three3Sum {
 
                     if(arr[i] + arr[j] + arr[k] == 0){
 
-                        List<Integer> temp = Arrays.asList(arr[i], arr[j], arr[k]);
+                      List<Integer> temp = Arrays.asList(arr[i], arr[j], arr[k]);
 
                         Collections.sort(temp);
                         set.add(temp);
