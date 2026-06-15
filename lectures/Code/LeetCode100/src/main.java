@@ -13,3 +13,7 @@ public class main {
 // 5. Longest Palindrome Substring
 // 6. Container With Most Water
 // 7. Romen to Integer
+// 8. ThreeSum
+// 9. Reverse Integer
+// 10. Count Number of Distinct Integers After Reverse Operations
+// 11. A number of After double reversal

@@ -98,12 +98,14 @@
       <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/10-BinarySearch.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/src/binarySearch.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/Code/LeetCode100/src/ThreeSum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/BreakAndcontinue.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/Do_WhileLoop.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/ForLoop.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/Loop.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/PatternPrint.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/WhileLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" afterDir="false" />
     </list>
