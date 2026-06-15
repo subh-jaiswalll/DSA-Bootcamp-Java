@@ -1,11 +1,3 @@
-public class main {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-
-
 // 1. TwoSum;
 // 2. Add Two Number
 // 3. Longest SubString Without Repeating Character
@@ -17,3 +9,5 @@ public class main {
 // 9. Reverse Integer
 // 10. Count Number of Distinct Integers After Reverse Operations
 // 11. A number of After double reversal
+// 12. String to Integer
+// 13. Remove Nth From Node
