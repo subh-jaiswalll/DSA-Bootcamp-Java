@@ -11,3 +11,6 @@
 // 11. A number of After double reversal
 // 12. String to Integer
 // 13. Remove Nth From Node
+// 14. Valid Palindrome
+// 15. Merge Two Sorted List
+
