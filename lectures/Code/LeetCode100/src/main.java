@@ -13,4 +13,6 @@
 // 13. Remove Nth From Node
 // 14. Valid Palindrome
 // 15. Merge Two Sorted List
-
+// 16. Merge K Sorted List
+// 17. Remove Duplicate From Sorted Array
+// 18. Find the index of first occurrence in String
