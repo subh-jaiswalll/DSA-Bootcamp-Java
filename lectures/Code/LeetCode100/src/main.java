@@ -27,5 +27,6 @@
 // 27. Jump Game
 // 28. Sqrt(x)
 // 29. Plue One
+// 30. Set Matrix Zero
 
 
