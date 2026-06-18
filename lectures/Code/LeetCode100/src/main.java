@@ -24,3 +24,8 @@
 // 24. Group Anagram
 // 25. Maximum SubArray
 // 26. Spiral Matrix
+// 27. Jump Game
+// 28. Sqrt(x)
+// 29. Plue One
+
+
