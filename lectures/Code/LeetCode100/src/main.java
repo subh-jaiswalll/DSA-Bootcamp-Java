@@ -28,5 +28,13 @@
 // 28. Sqrt(x)
 // 29. Plue One
 // 30. Set Matrix Zero
+// 31. Sort Colors
+// 32. Merge Sorted Array
+// 33. Max Sum Subarray size K
+// 34. Pascal's Triangle
+// 35. Best Time To Buy And Sell
+// 36. Contains Duplicate
+// 37. Two SumII
+// 38. Product Of Array Except Self
 
 

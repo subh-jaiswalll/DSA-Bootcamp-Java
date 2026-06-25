@@ -8,12 +8,7 @@ public class ThreeSum {
 
         int n = arr.length;
 
-        if(n <= 3){
-            return new ArrayList<>();
-        }
-
         HashSet<List<Integer>> list = new HashSet<>();
-
         for(int i = 0; i < n; i++){
 
             for(int j = i + 1; j < n; j++){
@@ -23,32 +18,28 @@ public class ThreeSum {
                     int sum = arr[i] + arr[j] + arr[k];
 
                     if(sum == 0){
-                        List<Integer> temp = Arrays.asList(arr[i], arr[j], arr[k]);
-
-                        Collections.sort(temp);
-                        list.add(temp);
+                        List<Integer> triple = Arrays.asList(arr[i], arr[j], arr[k]);
+                        Collections.sort(triple);
+                        list.add(triple);
                     }
-
                 }
             }
         }
         return new ArrayList<>(list);
     }
 
-
     public static List<List<Integer>> threeSumHashSet(int[] arr){
 
-        int n =arr.length;
-
+        int n = arr.length;
         Arrays.sort(arr);
-
-        if(n <= 3){
-            return new ArrayList<>();
-        }
 
         HashSet<List<Integer>> set = new HashSet<>();
 
         for(int i = 0; i < n - 2; i++){
+
+            if(i > 0 && arr[i] == arr[i - 1]){
+                continue;
+            }
 
             int start = i + 1;
             int end = n - 1;
@@ -59,18 +50,18 @@ public class ThreeSum {
 
                 if(sum == 0){
                     set.add(Arrays.asList(arr[i], arr[start], arr[end]));
+
                     start++;
                     end--;
                 }
-                else if(sum < 0){
-                    start++;
+                else if(sum > 0){
+                    end--;
                 }
                 else {
-                    end--;
+                    start++;
                 }
             }
         }
-
         return new ArrayList<>(set);
     }
     public static void main(String[] args) {
