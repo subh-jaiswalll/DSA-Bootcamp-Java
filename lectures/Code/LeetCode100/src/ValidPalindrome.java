@@ -1,48 +1,37 @@
-import java.util.Stack;
-
 public class ValidPalindrome {
 
     public static boolean isValidPalindrome(String s){
 
-        Stack<Character> stack = new Stack<>();
-
         int n = s.length();
 
-        for(int i = 0; i< n; i++){
+        int start = 0;
+        int end = n - 1;
 
-            char ch = s.charAt(i);
+        while (start < end){
 
-            if(ch == '(' || ch == '{' || ch == '['){
-                stack.push(ch);
+            while (start < end && !Character.isLetterOrDigit(s.charAt(start))){
+                start++;
             }
 
-            else {
-                if(stack.isEmpty()){
-                    return false;
-                }
-
-                char top = stack.peek();
-
-                if((ch == ')' && top == '(') ||
-                        (ch == '}' && top == '{') ||
-                (ch == ']' && top == '[')){
-                    stack.pop();
-                }
-                else {
-                    return false;
-                }
+            while (start < end && !Character.isLetterOrDigit(s.charAt(end))){
+                end--;
             }
+
+            if(Character.toLowerCase(s.charAt(start)) != Character.toLowerCase(s.charAt(end))){
+                return false;
+            }
+            start++;
+            end--;
         }
+        return true;
 
-        return stack.isEmpty();
     }
 
     public static void main(String[] args) {
 
+        String s = "A man, a plan, a canal: Panama";
 
-        String str =  "()[{}";
-
-        boolean result = isValidPalindrome(str);
+        boolean result = isValidPalindrome(s);
         System.out.println(result);
     }
 }

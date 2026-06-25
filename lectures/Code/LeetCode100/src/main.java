@@ -11,7 +11,7 @@
 // 11. A number of After double reversal
 // 12. String to Integer
 // 13. Remove Nth From Node
-// 14. Valid Palindrome
+// 14. Valid Parenthesis
 // 15. Merge Two Sorted List
 // 16. Merge K Sorted List
 // 17. Remove Duplicate From Sorted Array
@@ -40,6 +40,10 @@
 // 40. Max Subarray Product
 // 41. Find the Minimum in Rotated Sorted Array
 // 42. Rotate Array
-
-
+// 43. Move Zero
+// 44. Max Length Between Equal Characters
+// 45. Valid Anagram
+// 46. Check Palindrome
+// 47. Valid Palindrome
+// 48. Length of Last Word
 

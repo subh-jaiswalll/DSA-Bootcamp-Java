@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+public class MergeKSortedList {
 
-class Solution {
 
     public Node mergeKLists(Node[] lists) {
 
@@ -79,7 +79,7 @@ class Solution {
 
         Node[] lists = {l1, l2, l3};
 
-        Solution sol = new Solution();
+        MergeKSortedList sol = new MergeKSortedList();
         Node result = sol.mergeKLists(lists);
 
         while (result != null) {

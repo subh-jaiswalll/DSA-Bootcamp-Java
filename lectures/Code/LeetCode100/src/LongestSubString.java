@@ -3,58 +3,59 @@ import java.util.HashSet;
 
 public class LongestSubString {
 
-    public static int longestSubStringBrute(String s){
+   public static int longestSubStringBrute(String s){
 
-        int maxLen = 0;
-        int n = s.length();
+       int n = s.length();
 
-        for(int i = 0; i < n; i++){
+       int maxLen = 0;
 
-            for(int j = i; j < n; j++){
+       for(int i = 0; i < n; i++){
 
-                if(isUnique(s, i, j)){
-                    maxLen = Math.max(maxLen, j - i + 1);
-                }
-            }
-        }
-        return maxLen;
-    }
+           for(int j = i; j < n; j++){
 
-    private static boolean isUnique(String s, int start, int end) {
+               if(isUnique(s, i, j)){
+                   maxLen = Math.max(maxLen, j - i + 1);
+               }
+           }
 
-        for(int i = start; i <= end; i++){
+       }
+       return maxLen;
+   }
 
-            for(int j = i + 1; j <= end; j++){
-                if(s.charAt(i) == s.charAt(j)){
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
+   public static boolean isUnique(String s, int start, int end){
 
-    public static int longestSubStringTwoPointer(String s){
+       for(int i = start; i <= end; i++){
 
-        int n = s.length();
-        int maxLen = 0;
-        int left = 0;
+           for(int j = i+ 1; j <= end; j++){
 
-        HashSet<Character> set = new HashSet<>();
+               if(s.charAt(i) == s.charAt(j)){
+                   return false;
+               }
+           }
+       }
+       return true;
+   }
 
-        for(int right = 0; right < n; right++){
+   public static int longestSubStringTwoPointer(String s){
 
-            while (set.contains(s.charAt(right))){
-                set.remove(s.charAt(left));
-                left++;
-            }
+       int n = s.length();
+       int start = 0;
+       int maxLen = 0;
+       HashSet<Character> set = new HashSet<>();
+       for(int end = 0 ; end < n; end++){
 
-            set.add(s.charAt(right));
 
-            maxLen = Math.max(maxLen, right - left + 1);
-        }
-        return maxLen;
-    }
+           while (set.contains(s.charAt(end))){
+               set.remove(s.charAt(start));
+               start++;
+           }
+           set.add(s.charAt(end));
+           maxLen = Math.max(maxLen, end - start + 1);
 
+       }
+return maxLen;
+
+   }
     public static void main(String[] args) {
 
         String str = "abcdacb";

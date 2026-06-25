@@ -1,16 +1,16 @@
 public class ContainerWithMostWater {
 
-    public static int containerWaterBrute(int[] height){
+    public static int containerWaterBrute(int[] arr){
 
-        int n = height.length;
+        int n = arr.length;
+
         int maxWater = 0;
 
         for(int i = 0; i < n; i++){
 
-            for(int j = i  + 1; j < n; j++){
+            for(int j = i + 1; j < n; j++){
 
-                int minHeight = Math.min(height[i], height[j]);
-
+                int minHeight = Math.min(arr[i], arr[j]);
                 int width = j - i;
 
                 int water = minHeight * width;
@@ -18,31 +18,31 @@ public class ContainerWithMostWater {
                 maxWater = Math.max(maxWater, water);
             }
         }
-
         return maxWater;
     }
 
-    public static int containerWaterTwoPointer(int[] height){
+    public static int containerWaterTwoPointer(int[] arr){
 
-        int n = height.length;
-        int left = 0;
-        int right = n -1;
+        int n = arr.length;
+        int start = 0;
+        int end = n - 1;
+
         int maxWater = 0;
 
-        while (left < right){
-            int minHeight = Math.min(height[left], height[right]);
+        while (start < end){
 
-            int width = right - left;
+            int minHeight = Math.min(arr[start], arr[end]);
+            int width = end - start;
 
             int water = minHeight * width;
 
             maxWater = Math.max(maxWater, water);
 
-            if(height[left] < height[right]){
-                left++;
+            if(arr[start] < arr[end]){
+                start++;
             }
             else {
-                right--;
+                end--;
             }
         }
         return maxWater;
