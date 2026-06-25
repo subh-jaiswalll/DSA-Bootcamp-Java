@@ -1,40 +1,42 @@
 public class MaxSubArray {
 
 
-    public static int maxSubarrayBrute(int[] arr){
+   public static int maxSubarrayBrute(int[] arr){
 
-        int n = arr.length;
-        int maxSum = Integer.MIN_VALUE;
+       int n = arr.length;
 
-        for(int i = 0; i < n; i++){
+       int maxSum = 0;
 
-            int sum = 0;
-            for(int j = i; j < n; j++){
+       for(int i = 0; i < n ;i++){
 
-                sum += arr[j];
-                maxSum = Math.max(maxSum, sum);
+           int sum = 0;
 
-            }
+           for(int j = i; j < n; j++) {
+               sum += arr[j];
 
-        }
-        return maxSum;
-    }
+               maxSum = Math.max(maxSum, sum);
+           }
+       }
+       return maxSum;
+   }
 
-    public static int maxSubarraySum(int[] arr){
+   public static int maxSubarraySum(int[] arr){
 
-        int currentSum = arr[0];
-        int maxSum = arr[0];
+       int n = arr.length;
 
-        for (int i = 0; i < arr.length; i++){
+       int maxSum = arr[0];
+       int sum = arr[0];
 
-            currentSum = Math.max(arr[i], currentSum+ arr[i]);
-            maxSum = Math.max(maxSum, currentSum);
-        }
-        return maxSum;
-    }
+       for(int i = 1; i <n; i++){
+
+           sum = Math.max(arr[i], sum+ arr[i]);
+           maxSum = Math.max(maxSum, sum);
+       }
+       return maxSum;
+   }
     public static void main(String[] args) {
 
-        int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] arr = {-7, -2, 3, 4, -5, 6, 7, -2};
         int result = maxSubarrayBrute(arr);
         System.out.println(result);
 

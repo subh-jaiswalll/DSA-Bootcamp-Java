@@ -36,5 +36,10 @@
 // 36. Contains Duplicate
 // 37. Two SumII
 // 38. Product Of Array Except Self
+// 39. Minimum Size Subarray Sum
+// 40. Max Subarray Product
+// 41. Find the Minimum in Rotated Sorted Array
+// 42. Rotate Array
+
 
 
