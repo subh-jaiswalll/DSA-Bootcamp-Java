@@ -47,4 +47,5 @@
 // 47. Valid Palindrome
 // 48. Length of Last Word
 // 49. Count Vowel Substrings of a String
+// 50. Single Number
 
