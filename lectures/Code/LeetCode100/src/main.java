@@ -48,4 +48,6 @@
 // 48. Length of Last Word
 // 49. Count Vowel Substrings of a String
 // 50. Single Number
+// 51. Swap Two Number
+// 52. Power Of Two
 
