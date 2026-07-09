@@ -2,14 +2,22 @@ package SingularLinkedList;
 
 import static SingularLinkedList.Main.display;
 
-public class DeteteFirst {
+public class ReverseAnList {
 
-    public static Node deleteFirst(Node head){
-        if(head == null){
-            return null;
+    public static Node reverseAndList(Node head){
+
+        Node prev = null;
+        Node curr = head;
+
+        while (curr != null){
+            Node next = curr.next;
+
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
 
-        return head.next;
+        return prev;
     }
 
     public static void main(String[] args) {
@@ -21,7 +29,7 @@ public class DeteteFirst {
 
 
 
-        head = deleteFirst(head);   // Update the head
+        head = reverseAndList(head);   // Update the head
 
         display(head);
     }

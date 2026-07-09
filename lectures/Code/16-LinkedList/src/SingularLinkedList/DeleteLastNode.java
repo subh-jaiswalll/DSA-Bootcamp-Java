@@ -2,14 +2,24 @@ package SingularLinkedList;
 
 import static SingularLinkedList.Main.display;
 
-public class DeteteFirst {
+public class DeleteLastNode {
 
-    public static Node deleteFirst(Node head){
-        if(head == null){
+
+    public static Node deleteLastNode(Node head){
+
+        if(head == null || head.next == null){
             return null;
         }
 
-        return head.next;
+        Node temp = head;
+
+        while (temp.next.next != null){
+            temp = temp.next;
+        }
+
+        temp.next = null;
+
+        return head;
     }
 
     public static void main(String[] args) {
@@ -20,9 +30,9 @@ public class DeteteFirst {
         head.next.next.next.next = new Node(50);
 
 
-
-        head = deleteFirst(head);   // Update the head
+        head = deleteLastNode(head);   // Update the head
 
         display(head);
+
     }
 }
