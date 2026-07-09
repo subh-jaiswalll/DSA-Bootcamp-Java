@@ -1,3 +1,4 @@
+
 public class main {
 
 //    public static void main(String[] args) {
@@ -34,37 +35,37 @@ public class main {
 
 
     public static void main(String[] args) {
-
-        DoublyLinkedList dll  = new DoublyLinkedList();
-
-        dll.insertFirst(1);
-        dll.insertFirst(2);
-        dll.display();
-        dll.displayReverse();
-
-        dll.insertLast(3);
-        dll.insertLast(4);
-        dll.display();
-        dll.displayReverse();
-
-        dll.insert(0, 2);
-        dll.display();
-        dll.displayReverse();
-
-        System.out.println(dll.search(0));
-        System.out.println(dll.get(0));
-
-        dll.deleteFirst();
-        dll.display();
-        dll.displayReverse();
-
-        dll.deleteLast();
-        dll
-                .display();
-        dll.delete(1);
-        dll.display();
-
-        System.out.println(dll.size());
-        System.out.println(dll.hashCode());
+//
+//        DoublyLinkedList dll  = new DoublyLinkedList();
+//
+//        dll.insertFirst(1);
+//        dll.insertFirst(2);
+//        dll.display();
+//        dll.displayReverse();
+//
+//        dll.insertLast(3);
+//        dll.insertLast(4);
+//        dll.display();
+//        dll.displayReverse();
+//
+//        dll.insert(0, 2);
+//        dll.display();
+//        dll.displayReverse();
+//
+//        System.out.println(dll.search(0));
+//        System.out.println(dll.get(0));
+//
+//        dll.deleteFirst();
+//        dll.display();
+//        dll.displayReverse();
+//
+//        dll.deleteLast();
+//        dll
+//                .display();
+//        dll.delete(1);
+//        dll.display();
+//
+//        System.out.println(dll.size());
+//        System.out.println(dll.hashCode());
     }
 }
