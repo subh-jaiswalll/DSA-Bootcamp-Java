@@ -1,3 +1,3 @@
 
 # DSA + Interview Preparation Bootcamp
-## With The Leetcode 100
+## With The LeetCode 100
