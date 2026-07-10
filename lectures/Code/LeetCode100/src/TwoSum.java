@@ -33,8 +33,6 @@ public class TwoSum {
 
             int diff = target - arr[i];
 
-
-
             if(map.containsKey(diff)){
 
                 return new int[] {map.get(diff), i};
