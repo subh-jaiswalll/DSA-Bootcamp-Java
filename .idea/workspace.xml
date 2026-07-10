@@ -99,12 +99,6 @@
       <change afterPath="$PROJECT_DIR$/lectures/Code/10-BinarySearch/src/binarySearch.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lectures/Code/LeetCode100/src/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/BreakAndcontinue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/Do_WhileLoop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/ForLoop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/Loop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/PatternPrint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/Code/out/production/06-Loop/WhileLoop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/Code/11-linear_Search/.idea/vcs.xml" afterDir="false" />
     </list>
@@ -148,6 +142,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\subhk\Desktop\DSA-Bootcamp-Java\lectures\Code\16-LinkedList\src\SingularLinkedList" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5309443d-e21d-4441-b14e-e9c1a5392d31" name="Changes" comment="" />

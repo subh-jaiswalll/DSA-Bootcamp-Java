@@ -16,7 +16,7 @@ public class FindTheIndexOfFirst {
 
         for(int i  = 0; i <= m - n; i++){
 
-            int j  =0;
+            int j  = 0;
             while (j < n && s.charAt(i + j) == t.charAt(j)){
                 j++;
             }
