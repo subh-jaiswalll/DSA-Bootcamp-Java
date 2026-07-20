@@ -3,7 +3,7 @@ public class PatternPrint {
 
     public static void Pattern1(){
 
-//        1.  *****
+//        1.      *****
 //                *****
 //                *****
 //                *****
