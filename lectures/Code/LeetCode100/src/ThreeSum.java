@@ -3,12 +3,12 @@ import java.util.*;
 
 public class ThreeSum {
 
-
     public static List<List<Integer>> threeSumBrute(int[] arr){
 
         int n = arr.length;
 
         HashSet<List<Integer>> list = new HashSet<>();
+
         for(int i = 0; i < n; i++){
 
             for(int j = i + 1; j < n; j++){
