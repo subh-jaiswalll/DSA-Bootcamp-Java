@@ -11,6 +11,7 @@ public class ContainerWithMostWater {
             for(int j = i + 1; j < n; j++){
 
                 int minHeight = Math.min(arr[i], arr[j]);
+
                 int width = j - i;
 
                 int water = minHeight * width;
